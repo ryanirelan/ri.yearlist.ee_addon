@@ -72,11 +72,7 @@ class Yearlist
 		// ---------------------------
 		// get the category parameter
 		// ---------------------------
-		$category = '2';
-		if ($TMPL->fetch_param('category') !=false)
-		{
-			$category = $TMPL->fetch_param('category');
-		}                                              
+		$category = ( ! $TMPL->fetch_param('category')) ? 'all' : $TMPL->fetch_param('category');                                             
 		
 		// ---------------------------
 		// Query the database
