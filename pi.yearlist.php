@@ -20,7 +20,7 @@
 ================================================================
 	File:			pi.yearlist.php
 ----------------------------------------------------------------
-	Version:		1.1
+	Version:		1.2
 ----------------------------------------------------------------
 	Purpose:	  Returns list of years in which there are entries
 ----------------------------------------------------------------
@@ -36,7 +36,7 @@
 
 $plugin_info = array(
                  'pi_name'          => 'Year List',
-                 'pi_version'       => '1.1',
+                 'pi_version'       => '1.2',
                  'pi_author'        => 'Ryan Irelan',
                  'pi_author_url'    => 'http://ryanirelan.com',
                  'pi_description'   => 'Returns list of years in which there are entries',

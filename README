@@ -1,0 +1,17 @@
+h2. RI YearList EE Plugin
+
+The Year Listing plugin is a simple way to return a list of years in which there are entries in a weblog.
+
+Example usage:
+
+<pre>
+{exp:yearlist weblog="yourWeblog" category="1"}
+
+{year}
+
+{/exp:yearlist}  
+</pre>                                       
+
+That will return an array of years. Use {year} to print them to the screen and wrap in any markup needed. There are currently no linebreaks or HTML associated with this plugin.
+
+The category parameter is optional and if you leave it out, the plugin will search across all categories.
