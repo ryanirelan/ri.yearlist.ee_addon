@@ -20,13 +20,14 @@
 ================================================================
 	File:			pi.yearlist.php
 ----------------------------------------------------------------
-	Version:		1.2
+	Version:		1.3
 ----------------------------------------------------------------
 	Purpose:	  Returns list of years in which there are entries
 ----------------------------------------------------------------
 	Compatibility:	EE 1.6.3
 ----------------------------------------------------------------
 	Created:		2008-04-03
+	Extended:		2010-09-11 by Peter Siska, designchuchi.ch
 ================================================================
 */
 
@@ -36,7 +37,7 @@
 
 $plugin_info = array(
                  'pi_name'          => 'Year List',
-                 'pi_version'       => '1.2',
+                 'pi_version'       => '1.3',
                  'pi_author'        => 'Ryan Irelan',
                  'pi_author_url'    => 'http://ryanirelan.com',
                  'pi_description'   => 'Returns list of years in which there are entries',
@@ -162,7 +163,7 @@ The Year Listing plugin is a simple way to get a distinct 4 digit year for your 
 
 {exp:yearlist weblog="yourWeblog" category="1"}
 
-{year}
+	{year}
 
 {/exp:yearlist}
 
